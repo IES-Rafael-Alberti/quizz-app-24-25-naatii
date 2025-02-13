@@ -6,6 +6,7 @@ Crear una aplicación funcional que permita a los usuarios realizar cuestionario
 **Instrucciones Generales:**
 
 1. **Configuración Inicial (30 minutos):**
+
    - Configura un servidor PHP (Docker, XAMPP, etc.).
    - Crea una base de datos con las siguientes tablas básicas:
      - **Usuarios:** `user_id`, `username`, `password` (encriptada).
@@ -13,15 +14,18 @@ Crear una aplicación funcional que permita a los usuarios realizar cuestionario
      - **Preguntas:** `question_id`, `quiz_id`, `question_text`, `option_a`, `option_b`, `option_c`, `option_d`, `correct_option`.
 
 2. **Autenticación y Gestión de Sesiones (30 minutos):**
+
    - Implementa un sistema de registro e inicio de sesión para usuarios.
    - Utiliza sesiones para gestionar el inicio y cierre de sesión.
    - Almacena datos básicos como el nombre de usuario en las sesiones.
 
 3. **Creación y Gestión de Cuestionarios (60 minutos):**
+
    - Desarrolla una página para que los usuarios con permisos (instructores) creen cuestionarios y añadan preguntas.
    - Implementa un CRUD básico (Crear, Leer, Actualizar, Eliminar) para gestionar cuestionarios y preguntas.
 
 4. **Realización de Cuestionarios (60 minutos):**
+
    - Diseña una interfaz para que los estudiantes realicen cuestionarios.
    - Recupera preguntas dinámicamente desde la base de datos.
    - Valida las respuestas y proporciona retroalimentación inmediata.
@@ -32,9 +36,9 @@ Crear una aplicación funcional que permita a los usuarios realizar cuestionario
    - Incluye estadísticas básicas como la puntuación media y el número de intentos por cuestionario.
 
 **Aspectos Clave para Evaluar:**
+
 - Funcionalidad básica (autenticación, cuestionarios, retroalimentación).
 - Uso correcto de PHP (POO, manejo de sesiones, superglobales).
 - Seguridad (encriptación de contraseñas, prevención de inyecciones SQL).
 - Diseño de la base de datos y consultas eficientes.
 - Interfaz de usuario intuitiva.
-
